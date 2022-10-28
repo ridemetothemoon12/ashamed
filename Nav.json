@@ -2,16 +2,16 @@
     {
         "id" : 1,
         "nav" : "Portfolio",
-        "page" : "#firstPage"
+        "page" : "/#firstPage"
     },
     {
         "id" : 2,
         "nav" : "About",
-        "page" : "#secondPage"
+        "page" : "/#secondPage"
     },
     {
         "id" : 3,
         "nav" : "Contact",
-        "page" : "#fourthPage"
+        "page" : "/#fourthPage"
     }
 ]
