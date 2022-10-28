@@ -46,7 +46,7 @@
             "height": "600px",
             "title" : "Grand Hyatt",
             "delay" : ".3s",
-            "link" : "/portfolio_react/Grandhyatt"
+            "link" : "/Grandhyatt"
         },
         {
             "id" : 2,
@@ -57,7 +57,7 @@
             "left": "350px",
             "title" : "Ministry of culture",
             "delay" : ".6s",
-            "link" : "/portfolio_react/Culture"
+            "link" : "/Culture"
         },
         {
             "id" :3,
@@ -69,7 +69,7 @@
             "rotate": "45deg",
             "title" : "Nature Dream",
             "delay" : ".9s",
-            "link" : "/portfolio_react/Naturedream"
+            "link" : "/Naturedream"
         },
         {
             "id" : 4,
@@ -81,7 +81,7 @@
             "rotate": "90deg",
             "title" : "Hilton Hotel",
             "delay" : "1.2s",
-            "link" : "/portfolio_react/Hiltionhotel"
+            "link" : "/Hiltionhotel"
         }
     ]
 }
