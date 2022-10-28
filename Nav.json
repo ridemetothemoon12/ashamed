@@ -1,0 +1,17 @@
+[
+    {
+        "id" : 1,
+        "nav" : "Portfolio",
+        "page" : "/portfolio_react#firstPage"
+    },
+    {
+        "id" : 2,
+        "nav" : "About",
+        "page" : "/portfolio_react#secondPage"
+    },
+    {
+        "id" : 3,
+        "nav" : "Contact",
+        "page" : "/portfolio_react#fourthPage"
+    }
+]
