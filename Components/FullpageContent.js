@@ -5,7 +5,7 @@
     import { useDispatch, useSelector } from 'react-redux'
     import { ChangeIndex, ChangeSvgIndex } from '../store'
     import { createManagedSvgPatternLibrary  } from 'react-svg-patterns'
-
+    import { useNavigate } from 'react-router-dom'
     const {
         ManagedSvgPatternLibrary,
         registerSvgPattern,
@@ -201,7 +201,10 @@
     align-items: center;
     `
     // 풀페이지 세팅 및 출력
+
+    
     function FullpageContent() {
+        const navigate = useNavigate();
         const dispatch = useDispatch();
 
         const pageNavChanger = useSelector((state) => state.svgListIndex.data)
@@ -253,7 +256,7 @@
                     el[k].style.transition = "all .6s"
                 },1500)
                 setTimeout(function(){
-                    window.location.replace(link);
+                    navigate(link)
                 },2500)
             }
         }

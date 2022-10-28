@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Aos from 'aos';
 import ReactTyped from 'react-typed';
 import 'react-typed/dist/animatedCursor.css';
+import { useNavigate } from 'react-router-dom'
 
 const InitialAnimation = keyframes`
 0% {
@@ -382,11 +383,8 @@ const ContentNavigationLi = styled.li`
         }
     }
 `
-const clickEvent = function(link) {
-    window.location.replace(link);
-}
 function handleChange(e) {
-    console.log("changed")
+
     var pos = e.target.value;
     var tarWindow = document.querySelector(".TargetSelectionWindowChanger")
     var tarbutton = document.querySelector(".WindowChangerButton")
@@ -409,6 +407,11 @@ function Grandhyatt() {
     useEffect(() => {
         Aos.init();
         })
+
+    const navigate = useNavigate();
+    const clickEvent = function(link) {
+        navigate(link)
+    }
   return (
     <>
         <Initial>Nature Dream</Initial>
